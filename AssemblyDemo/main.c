@@ -8,8 +8,12 @@
 
 #include <stdio.h>
 
+int myOperation(int x, int y);
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int x = 10;
+    int y = 20;
+    int z = myOperation(x, y);
+    printf("OutPut is = %d",z);
     return 0;
 }
