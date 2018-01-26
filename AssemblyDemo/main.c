@@ -14,6 +14,6 @@ int main(int argc, const char * argv[]) {
     int x = 10;
     int y = 20;
     int z = myOperation(x, y);
-    printf("OutPut is = %d",z);
+    printf("OutPut is = %d \n",z);
     return 0;
 }
